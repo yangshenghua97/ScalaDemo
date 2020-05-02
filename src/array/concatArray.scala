@@ -6,7 +6,7 @@ object concatArray {
     var mylist2 = Array(12,5,67,9,8,64,1,6,87,6,84)
     var concatarr = concat(mylist1,mylist2)
     for(x <- concatarr){
-      print(x)
+      print(x+" ")
     }
   }
 }
