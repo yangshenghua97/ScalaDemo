@@ -1,0 +1,5 @@
+package accesscontr
+
+class Other {
+
+}
