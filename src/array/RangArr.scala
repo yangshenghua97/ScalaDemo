@@ -1,5 +1,4 @@
 package array
-import Array._
 object RangArr {
   def main(args: Array[String]): Unit = {
     var mylist1 = Range(10,20,2)
