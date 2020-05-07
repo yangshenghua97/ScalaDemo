@@ -1,0 +1,12 @@
+package Pragmatic_Scala_Expressive.Part1.chapter3
+
+object Equality {
+  def main(args: Array[String]): Unit = {
+    val str1 = "hello"
+    val str2 = "hello"
+    val str3 = new String("hello")
+    println(str1 == str2)
+    println(str1 eq str2)
+    println(str1 eq str3)
+  }
+}
